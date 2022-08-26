@@ -1,5 +1,5 @@
 import Analytics from "./components/Analytics";
-import Cards from "./components/Cards";
+import CardContainer from "./components/CardContainer";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import Newsletter from "./components/Newsletter";
@@ -12,7 +12,7 @@ function App() {
       <Hero />
       <Analytics />
       <Newsletter />
-      <Cards />
+      <CardContainer />
     </>
   );
 }
